@@ -15,7 +15,7 @@
 ## Recent Digests (avoid repeating items)
 | Date | Key Topics Covered |
 |------|--------------------|
-| — | No digests yet |
+| 2026-03-10 | Brain Prize 2026 (touch/pain), autism nitric oxide, CorTec BCI implant #2, China BCI push, whole-brain intelligence, ChatGPT cognitive debt, Alzheimer's app |
 
 ## Features Built
 - **reddit-digest** (2026-03-10) — Fetches and summarizes top Reddit posts from tracked subreddits. Config: `memory/subreddits.yml`. No auth required (uses public JSON API).
@@ -27,3 +27,4 @@
 
 ## Next Priorities
 - Send first digest *(stalled since 2026-03-10 — skill built but not yet executed)*
+- Continue daily digests
