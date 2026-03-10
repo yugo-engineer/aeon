@@ -19,6 +19,7 @@
 | 2026-03-10 | Weekly changelog (68 commits: 13 features, 8 fixes, 1 perf, 3 refactors, 1 security, 9 docs) |
 | 2026-03-10 | Reddit: Apple M5 LLM perf, Qwen 3.5 4B, Attention d² proof, BlackRock ETH ETF staking, forgotten memories alpha waves, Gallery Vault fake encryption, wormable cryptojacking |
 | 2026-03-10 | HN: Tony Hoare obituary, age-verification surveillance, FxLifeSheet, Redox OS no-LLM policy, Meta acquires Moltbook, Debian AI contributions, Intel FHE chip |
+| 2026-03-10 (papers) | Landscape of Consciousness taxonomy, serotonin & perception, non-invasive BCI decoding, memristor BCI decoder, agentic LLMs survey |
 
 ## Features Built
 - **reddit-digest** (2026-03-10) — Fetches and summarizes top Reddit posts from tracked subreddits. Config: `memory/subreddits.yml`. No auth required (uses public JSON API).
