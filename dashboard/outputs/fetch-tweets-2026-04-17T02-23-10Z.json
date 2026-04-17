@@ -1,0 +1,111 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "📡 Tweet Roundup: @shawmakesmagic, @a1lon9, @AzFlin + Their Networks"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "shaw_heading",
+        "shaw_text",
+        "sep1",
+        "alon_heading",
+        "alon_text",
+        "sep2",
+        "azflin_heading",
+        "azflin_text",
+        "sep3",
+        "conclusion_text"
+      ]
+    },
+    "shaw_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Shaw (ElizaOS)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "shaw_text": {
+      "type": "Text",
+      "props": {
+        "text": "Eliza Labs winding down. Going back to basics — ElizaOS v3 beta imminent with fully branded autonomous agents for anyone. $10M Magic Fund with Jupiter backing AI builders. His orbit: @weremeow launching JupUSD + pausing JUP emissions, @0xMert_ powering X Cashtags via Helius (250M+ daily requests), @dankvr building 23 blockchain plugins for ElizaOS.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alon_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Alon (pump.fun)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "alon_text": {
+      "type": "Text",
+      "props": {
+        "text": "Broke 65-day silence with a creator fee overhaul — PumpSwap gives 50% of trading fees to creators, zero migration fees. $3M Build in Public Hackathon advised by Polymarket/Pantera/Delphi (5 of 12 winners announced). His orbit: @sapijiju denying $436M cash-out claims and managing a $2B war chest, @birdeye_data providing infra for hackathon winners.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "azflin_heading": {
+      "type": "Heading",
+      "props": {
+        "text": "AzFlin (daos.world)",
+        "level": "h3"
+      },
+      "children": []
+    },
+    "azflin_text": {
+      "type": "Text",
+      "props": {
+        "text": "Ex-Genie/Uniswap engineer building one-click DAO creation on Base+Solana with 40% fee revenue sharing. His orbit: @jessepollak pushing creator coins on Base (named Most Influential 2025), HypurrDAO as strategic partner.",
+        "variant": "body"
+      },
+      "children": []
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "conclusion_text": {
+      "type": "Text",
+      "props": {
+        "text": "The thread connecting all three: creator monetization going on-chain. AI agent creators (ElizaOS), token creators (pump.fun), DAO creators (daos.world). And the week's biggest infra story — X Cashtags launched April 15 powered by Solana/Helius/Birdeye/Dialect, bringing live blockchain data and on-chain trading into social feeds. Crypto is embedding itself in mainstream social media.",
+        "variant": "lead"
+      },
+      "children": []
+    }
+  }
+}

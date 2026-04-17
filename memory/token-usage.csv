@@ -1,2 +1,3 @@
 date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-04-17,narrative-tracker,claude-opus-4-6,267,4685,466813,32218
+2026-04-17,fetch-tweets,claude-opus-4-6,1945,17570,1613304,61832
