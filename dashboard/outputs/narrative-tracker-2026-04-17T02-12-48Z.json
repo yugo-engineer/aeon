@@ -1,0 +1,449 @@
+{
+  "root": "main-card",
+  "state": {},
+  "elements": {
+    "main-card": {
+      "type": "Card",
+      "props": {
+        "title": "Narrative Tracker"
+      },
+      "children": [
+        "date-text",
+        "sep1",
+        "emerging-section",
+        "sep2",
+        "rising-section",
+        "sep3",
+        "peak-section",
+        "sep4",
+        "fading-section",
+        "sep5",
+        "reflexivity-section"
+      ]
+    },
+    "date-text": {
+      "type": "Text",
+      "props": {
+        "text": "2026-04-17",
+        "variant": "caption"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {}
+    },
+    "emerging-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "emerging-heading",
+        "emerging-item1",
+        "emerging-item2"
+      ]
+    },
+    "emerging-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "EMERGING",
+        "level": "h2"
+      }
+    },
+    "emerging-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging1-title",
+        "emerging1-text"
+      ]
+    },
+    "emerging1-title": {
+      "type": "Text",
+      "props": {
+        "text": "DeSci breakout",
+        "variant": "lead"
+      }
+    },
+    "emerging1-text": {
+      "type": "Text",
+      "props": {
+        "text": "BIO Protocol +48% in a day on no protocol news. AI-adjacent investors discovering on-chain science data. DeSci quietly built through the bear; this may be its visibility inflection point.",
+        "variant": "body"
+      }
+    },
+    "emerging-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "emerging2-title",
+        "emerging2-text"
+      ]
+    },
+    "emerging2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Decentralized data pipelines",
+        "variant": "lead"
+      }
+    },
+    "emerging2-text": {
+      "type": "Text",
+      "props": {
+        "text": "GRASS rallied 28% on Nvidia GTC keynote. DePIN is converging with AI as the supply layer for LLM training data. The \"data bottleneck\" narrative is nascent but has real demand pull.",
+        "variant": "body"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {}
+    },
+    "rising-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "rising-heading",
+        "rising-item1",
+        "rising-item2",
+        "rising-item3"
+      ]
+    },
+    "rising-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "RISING",
+        "level": "h2"
+      }
+    },
+    "rising-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising1-title",
+        "rising1-text"
+      ]
+    },
+    "rising1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid \"Everything Exchange\"",
+        "variant": "lead"
+      }
+    },
+    "rising1-text": {
+      "type": "Text",
+      "props": {
+        "text": "RWA trading live (crude oil perps hit $840M daily volume), HIP-4 prediction markets incoming. Arthur Hayes publicly accumulating, projecting $150. 76% YTD. Fee-buyback flywheel creating reflexive momentum.",
+        "variant": "body"
+      }
+    },
+    "rising-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising2-title",
+        "rising2-text"
+      ]
+    },
+    "rising2-title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act endgame",
+        "variant": "lead"
+      }
+    },
+    "rising2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Senate returned Apr 13. Late-April markup is do-or-die: miss May and midterms kill it. Armstrong reversed and endorsed. Three open issues: DeFi provisions, ethics language, stablecoin yield. This is the most consequential two weeks for US crypto regulation.",
+        "variant": "body"
+      }
+    },
+    "rising-item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "rising3-title",
+        "rising3-text"
+      ]
+    },
+    "rising3-title": {
+      "type": "Text",
+      "props": {
+        "text": "Privacy/ZK infrastructure",
+        "variant": "lead"
+      }
+    },
+    "rising3-text": {
+      "type": "Text",
+      "props": {
+        "text": "Every major research report (a16z, Grayscale, Coinbase) lists privacy as top-tier infra. Google search interest surging since 2024. Buildout phase, not speculation phase.",
+        "variant": "body"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {}
+    },
+    "peak-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "peak-heading",
+        "peak-item1",
+        "peak-item2"
+      ]
+    },
+    "peak-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "PEAK",
+        "level": "h2"
+      }
+    },
+    "peak-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak1-title",
+        "peak1-text"
+      ]
+    },
+    "peak1-title": {
+      "type": "Text",
+      "props": {
+        "text": "RWA tokenization",
+        "variant": "lead"
+      }
+    },
+    "peak1-text": {
+      "type": "Text",
+      "props": {
+        "text": "$29.2B on-chain, $17B private credit tokenized. Every institution from BlackRock to Franklin Templeton is in. Consensus is deafening. What they are missing: most RWA products still have centralized custody dependencies and untested legal claims in default scenarios.",
+        "variant": "body"
+      }
+    },
+    "peak-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "peak2-title",
+        "peak2-text"
+      ]
+    },
+    "peak2-title": {
+      "type": "Text",
+      "props": {
+        "text": "AI × Crypto",
+        "variant": "lead"
+      }
+    },
+    "peak2-text": {
+      "type": "Text",
+      "props": {
+        "text": "$22.6B market after 75% reset from peak. Label is fracturing: Covenant AI publicly exited Bittensor accusing centralized control (20% crash, $10M liquidated). \"AI+crypto\" is becoming a red flag as projects pivot to ride it without substance.",
+        "variant": "body"
+      }
+    },
+    "sep4": {
+      "type": "Separator",
+      "props": {}
+    },
+    "fading-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "fading-heading",
+        "fading-item1",
+        "fading-item2"
+      ]
+    },
+    "fading-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "FADING",
+        "level": "h2"
+      }
+    },
+    "fading-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading1-title",
+        "fading1-text"
+      ]
+    },
+    "fading1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Memecoin/launchpad mania",
+        "variant": "lead"
+      }
+    },
+    "fading1-text": {
+      "type": "Text",
+      "props": {
+        "text": "Was: the meta everyone chased. Now: market in extreme fear, attention rotating to fundamentals. VCs demanding profitability paths and real user metrics.",
+        "variant": "body"
+      }
+    },
+    "fading-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "fading2-title",
+        "fading2-text"
+      ]
+    },
+    "fading2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Broad speculative alt rally thesis",
+        "variant": "lead"
+      }
+    },
+    "fading2-text": {
+      "type": "Text",
+      "props": {
+        "text": "Was: \"everything pumps in the cycle.\" Now: VC funding rebounded to $4.8B in Q1 but exclusively into infra and DeFi with clear PMF. Narrative-only raises are dead.",
+        "variant": "body"
+      }
+    },
+    "sep5": {
+      "type": "Separator",
+      "props": {}
+    },
+    "reflexivity-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "reflexivity-heading",
+        "reflexivity-item1",
+        "reflexivity-item2",
+        "reflexivity-item3"
+      ]
+    },
+    "reflexivity-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "REFLEXIVITY ALERT",
+        "level": "h2"
+      }
+    },
+    "reflexivity-item1": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity1-title",
+        "reflexivity1-text"
+      ]
+    },
+    "reflexivity1-title": {
+      "type": "Text",
+      "props": {
+        "text": "Hyperliquid flywheel",
+        "variant": "lead"
+      }
+    },
+    "reflexivity1-text": {
+      "type": "Text",
+      "props": {
+        "text": "More volume → more fees → more HYPE buybacks → higher price → more attention → more volume. Hayes accumulation amplifies. The $1B Assistance Fund burn vote would structurally reduce supply. The narrative is manufacturing its own fundamentals.",
+        "variant": "body"
+      }
+    },
+    "reflexivity-item2": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity2-title",
+        "reflexivity2-text"
+      ]
+    },
+    "reflexivity2-title": {
+      "type": "Text",
+      "props": {
+        "text": "Drift hack → Hyperliquid rotation",
+        "variant": "lead"
+      }
+    },
+    "reflexivity2-text": {
+      "type": "Text",
+      "props": {
+        "text": "$285M DPRK-linked exploit killed Solana perp DEX confidence. Capital rotating to Hyperliquid not on its own merits but on Drift's failure. The security narrative Hyperliquid didn't create is feeding its growth.",
+        "variant": "body"
+      }
+    },
+    "reflexivity-item3": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "reflexivity3-title",
+        "reflexivity3-text"
+      ]
+    },
+    "reflexivity3-title": {
+      "type": "Text",
+      "props": {
+        "text": "CLARITY Act as tradeable narrative",
+        "variant": "lead"
+      }
+    },
+    "reflexivity3-text": {
+      "type": "Text",
+      "props": {
+        "text": "XRP and compliance tokens pump on every headline. The probability of passage is itself a speculative instrument, independent of the actual regulatory outcome.",
+        "variant": "body"
+      }
+    }
+  }
+}
