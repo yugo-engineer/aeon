@@ -1,3 +1,11 @@
+HEARTBEAT_OK — nothing needs attention.
+
 ## Summary
 
-**HEARTBEAT_OK** — all systems healthy. Three tracked skills (narrative-tracker, fetch-tweets, heartbeat) at 100% success rate, no stalled PRs or urgent issues, no flagged memory items. Only heartbeat is enabled in `aeon.yml`; all other skills remain disabled. Logged result to `memory/logs/2026-04-18.md`.
+**Heartbeat completed — all clear.**
+
+- **P0 (Failed/stuck skills):** 3 tracked skills (narrative-tracker, fetch-tweets, heartbeat) all healthy. 100% success rates, zero consecutive failures, no stuck dispatches.
+- **P1 (Stalled PRs/urgent issues):** No open PRs. Issues disabled on repo.
+- **P2 (Flagged memory items):** Nothing flagged.
+- **P3 (Missing scheduled skills):** Heartbeat is the only enabled scheduled skill. Last success ~10h ago, well within 2x its 6h interval.
+- **Log:** Appended to `memory/logs/2026-04-18.md`.
