@@ -1,5 +1,7 @@
-HEARTBEAT_OK
+HEARTBEAT_OK — nothing needs attention.
 
 ## Summary
-
-Ran the heartbeat skill — all checks passed across all priority tiers. Three tracked skills (narrative-tracker, fetch-tweets, heartbeat) are healthy with 100% success rates. No open PRs, no flagged memory items, no missing scheduled skills. Logged result to `memory/logs/2026-04-21.md`.
+- **Skill:** heartbeat
+- **Result:** HEARTBEAT_OK
+- All 3 tracked skills healthy (100% success rates). No open PRs, no flagged memory items, no missing scheduled skills.
+- **Files modified:** `memory/logs/2026-04-21.md` (appended run 2 log entry)
