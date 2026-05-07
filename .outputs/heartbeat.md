@@ -1,9 +1,7 @@
+HEARTBEAT_OK
+
 ## Summary
-
-**HEARTBEAT_OK** — all checks clean:
-- **P0:** No failed, stuck, or degraded skills. All 3 tracked skills at 100% success rate. Heartbeat at 69/69 runs.
-- **P1:** No open PRs, repo issues disabled.
-- **P2:** No flagged memory items.
-- **P3:** Heartbeat (only enabled skill) running on schedule.
-
-Logged to `memory/logs/2026-05-07.md`. No notification needed.
+- Executed the heartbeat skill — all checks passed across all priority tiers (P0–P3).
+- 3 tracked skills in cron-state.json all healthy: heartbeat 70/70 (100%), narrative-tracker 1/1, fetch-tweets 1/1. No failures, no stuck dispatches, no degradation.
+- No open PRs, no urgent issues, no flagged memory items, no missing scheduled skills.
+- Appended log entry to `memory/logs/2026-05-07.md`.
