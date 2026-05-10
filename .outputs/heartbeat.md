@@ -1,3 +1,6 @@
-## Summary
+HEARTBEAT_OK
 
-**HEARTBEAT_OK** — all checks passed. 3 tracked skills healthy with 100% success rates, no open PRs, no flagged memory items, no missing scheduled skills. Logged as run 5 to `memory/logs/2026-05-09.md`.
+## Summary
+- Ran all heartbeat checks (P0–P3) — nothing needs attention.
+- All 3 tracked skills healthy with 100% success rates. No stuck dispatches, no stalled PRs, no flagged memory items.
+- Logged result to `memory/logs/2026-05-10.md`.
