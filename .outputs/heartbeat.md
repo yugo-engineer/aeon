@@ -1,4 +1,1 @@
-HEARTBEAT_OK
-
-## Summary
-All systems healthy. 3 tracked skills at 100% success rate, no failed or stuck dispatches, no stalled PRs, no flagged memory items. Logged result to `memory/logs/2026-05-13.md`.
+🔴 FAILED: heartbeat (failed 2026-05-14 08:17 UTC — 0 output tokens, likely transient sandbox issue. 1 consecutive failure, 99% success rate overall. Self-recovering this run.)

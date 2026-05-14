@@ -1,0 +1,88 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert",
+        "separator",
+        "details"
+      ]
+    },
+    "alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Failed",
+        "message": "0 output tokens, likely transient sandbox issue",
+        "type": "error"
+      },
+      "children": []
+    },
+    "separator": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timestamp",
+        "stats_row",
+        "recovery"
+      ]
+    },
+    "timestamp": {
+      "type": "Text",
+      "props": {
+        "text": "2026-05-14 08:17 UTC",
+        "variant": "caption"
+      },
+      "children": []
+    },
+    "stats_row": {
+      "type": "Stack",
+      "props": {
+        "direction": "horizontal",
+        "gap": "lg"
+      },
+      "children": [
+        "consecutive_failures",
+        "success_rate"
+      ]
+    },
+    "consecutive_failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive Failures",
+        "value": "1"
+      },
+      "children": []
+    },
+    "success_rate": {
+      "type": "Stat",
+      "props": {
+        "label": "Overall Success Rate",
+        "value": "99%"
+      },
+      "children": []
+    },
+    "recovery": {
+      "type": "Badge",
+      "props": {
+        "text": "Self-recovering",
+        "variant": "secondary"
+      },
+      "children": []
+    }
+  }
+}
