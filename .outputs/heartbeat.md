@@ -1,3 +1,6 @@
-## Summary
+HEARTBEAT_OK — nothing needs attention.
 
-Ran the heartbeat skill. All checks passed across all priority tiers — no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills. Logged `HEARTBEAT_OK` to `memory/logs/2026-05-15.md`. No notification needed.
+## Summary
+- Ran all heartbeat checks (P0–P3): all clear.
+- 3 tracked skills healthy, no stuck dispatches, no stalled PRs, no flagged memory items.
+- Logged result to `memory/logs/2026-05-15.md`.
