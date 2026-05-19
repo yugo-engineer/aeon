@@ -1,3 +1,7 @@
-## Summary
+HEARTBEAT_OK — all checks passed, nothing needs attention.
 
-**HEARTBEAT_OK** — all checks passed. No failed, stuck, or degraded skills. No stalled PRs or urgent issues. No flagged memory items. Heartbeat is the only enabled scheduled skill and is running on schedule. Logged results to `memory/logs/2026-05-19.md`.
+## Summary
+- **Executed:** heartbeat skill (all P0–P3 checks)
+- **Result:** HEARTBEAT_OK — no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills
+- **Files modified:** `memory/logs/2026-05-19.md` (appended run 2 log entry)
+- **Follow-up:** None needed
