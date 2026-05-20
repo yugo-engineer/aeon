@@ -18,8 +18,8 @@
     "success_rate": 1
   },
   "heartbeat": {
-    "last_dispatch": "2026-05-20T08:51:15Z",
-    "last_status": "success",
+    "last_dispatch": "2026-05-20T14:18:43Z",
+    "last_status": "dispatched",
     "last_success": "2026-05-20T08:52:26Z",
     "total_runs": 109,
     "total_successes": 108,
