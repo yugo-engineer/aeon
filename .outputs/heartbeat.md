@@ -1,6 +1,9 @@
-HEARTBEAT_OK
+HEARTBEAT_OK — all systems nominal.
 
 ## Summary
-- Ran all heartbeat checks (P0–P3): no failed skills, no stuck dispatches, no stalled PRs, no flagged memory items, no missing scheduled skills.
-- Created log entry at `memory/logs/2026-05-23.md`.
-- No notification needed — all systems nominal.
+- **Skill:** heartbeat
+- **Result:** HEARTBEAT_OK
+- All 3 tracked skills (narrative-tracker, fetch-tweets, heartbeat) in success state with 0 consecutive failures
+- Heartbeat at 99% success rate (117/118 runs), last success ~same day
+- No open PRs, no urgent issues, no flagged memory items, no missing scheduled skills
+- **Files modified:** `memory/logs/2026-05-23.md` (appended run 2 log entry)
