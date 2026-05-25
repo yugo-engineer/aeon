@@ -122,3 +122,4 @@ date,skill,model,input_tokens,output_tokens,cache_read,cache_creation
 2026-05-24,heartbeat,claude-opus-4-6,8,2107,172934,17292
 2026-05-24,heartbeat,claude-opus-4-6,7,2304,143613,17711
 2026-05-24,heartbeat,claude-opus-4-6,6,2606,115992,18539
+2026-05-25,heartbeat,claude-opus-4-6,8,2228,173277,17402
