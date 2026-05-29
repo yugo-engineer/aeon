@@ -1,7 +1,5 @@
 HEARTBEAT_OK
 
 ## Summary
-- Ran all heartbeat checks (P0–P3): no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills.
-- Heartbeat is healthy at 99% success rate (128/129 runs), last success ~12h ago.
-- Logged result to `memory/logs/2026-05-29.md`.
-- No notification needed — all clear.
+
+All heartbeat checks passed — nothing needs attention. Three tracked skills (narrative-tracker, fetch-tweets, heartbeat) are healthy, no open PRs or urgent issues, no flagged memory items, and the only enabled scheduled skill (heartbeat) is running on schedule. Logged result to `memory/logs/2026-05-29.md`.
