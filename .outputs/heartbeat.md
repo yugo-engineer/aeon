@@ -1,10 +1,7 @@
 HEARTBEAT_OK
 
 ## Summary
-- **Ran:** Heartbeat skill (all checks P0–P3)
-- **P0 (Failed/stuck skills):** All 3 tracked skills (narrative-tracker, fetch-tweets, heartbeat) in success state. Heartbeat at 99% success rate (133/134 runs), 0 consecutive failures. No stuck dispatches, no API degradation, no chronic failures. Self-check OK.
-- **P1 (Stalled PRs/issues):** No open PRs. Issues disabled on repo.
-- **P2 (Flagged memory):** Nothing flagged.
-- **P3 (Missing scheduled skills):** Heartbeat is the only enabled skill; last success within 2x its schedule interval.
-- **Files modified:** `memory/logs/2026-05-30.md` (appended run 3 log entry)
-- **Notification:** None needed — all clear.
+- **Checks run:** P0 (failed/stuck skills), P1 (stalled PRs/urgent issues), P2 (flagged memory), P3 (missing scheduled skills)
+- **Result:** All clear. 3 tracked skills in success state, heartbeat at 99% success rate (134/135 runs), no open PRs, no flagged memory items, only enabled skill (heartbeat) running on schedule.
+- **Files created:** `memory/logs/2026-05-31.md`
+- **No notification sent** — nothing needs attention.
