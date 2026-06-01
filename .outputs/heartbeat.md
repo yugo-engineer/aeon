@@ -1,8 +1,9 @@
-## Summary
+HEARTBEAT_OK
 
-- **Result:** HEARTBEAT_OK — all systems nominal.
-- **P0:** No failed, stuck, degraded, or chronically failing skills.
-- **P1:** No stalled PRs or urgent issues.
-- **P2:** No flagged memory items.
-- **P3:** Heartbeat (only enabled skill) running on schedule.
-- **Logged** run 3 to `memory/logs/2026-05-31.md`.
+## Summary
+- Ran all heartbeat checks (P0–P3) — nothing needs attention.
+- P0: All 3 tracked skills in success state, no failures/stuck/degradation.
+- P1: No open PRs, issues disabled.
+- P2: No flagged memory items.
+- P3: Heartbeat (only enabled skill) running on schedule.
+- Logged result to `memory/logs/2026-06-01.md`.
