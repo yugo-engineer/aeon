@@ -1,9 +1,7 @@
 HEARTBEAT_OK
 
 ## Summary
-- Ran all heartbeat checks (P0–P3) — nothing needs attention.
-- P0: All 3 tracked skills in success state, no failures/stuck/degradation.
-- P1: No open PRs, issues disabled.
-- P2: No flagged memory items.
-- P3: Heartbeat (only enabled skill) running on schedule.
-- Logged result to `memory/logs/2026-06-01.md`.
+- Executed the heartbeat skill — all checks passed across all priority tiers (P0–P3).
+- No failed, stuck, or degraded skills. No stalled PRs or urgent issues. No flagged memory items. No missing scheduled skills.
+- Created log entry at `memory/logs/2026-06-02.md`.
+- No notification sent (nothing needs attention).
