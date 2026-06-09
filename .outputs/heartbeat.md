@@ -1,6 +1,10 @@
-HEARTBEAT_OK
+HEARTBEAT_OK — nothing needs attention.
 
 ## Summary
-- Ran all heartbeat checks (P0–P3) — nothing needs attention.
-- All 3 tracked skills healthy, no stalled PRs, no flagged memory items, no missing scheduled skills.
-- Logged result to `memory/logs/2026-06-09.md`.
+- **Skill:** heartbeat
+- **Result:** All checks passed across all priority tiers (P0–P3)
+- **P0:** 3 tracked skills healthy — no failures, no stuck dispatches, no API degradation, no chronic issues
+- **P1:** No stalled PRs, issues disabled on repo
+- **P2:** No flagged memory items
+- **P3:** Heartbeat (only enabled scheduled skill) running on schedule
+- **Files modified:** `memory/logs/2026-06-09.md` — appended run 2 log entry
