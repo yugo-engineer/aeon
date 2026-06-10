@@ -1,0 +1,65 @@
+{
+  "root": "card_heartbeat",
+  "state": {},
+  "elements": {
+    "card_heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "Health check"
+      },
+      "children": [
+        "alert_crash",
+        "separator_main",
+        "details_stack"
+      ]
+    },
+    "alert_crash": {
+      "type": "Alert",
+      "props": {
+        "title": "FAILED",
+        "message": "crashed at 08:47 UTC today",
+        "type": "error"
+      }
+    },
+    "separator_main": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "text_cause",
+        "stat_failures",
+        "badge_recovery"
+      ]
+    },
+    "text_cause": {
+      "type": "Text",
+      "props": {
+        "text": "0-token run — likely transient infra issue",
+        "variant": "body"
+      }
+    },
+    "stat_failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive failures",
+        "value": "1"
+      }
+    },
+    "badge_recovery": {
+      "type": "Badge",
+      "props": {
+        "text": "recovering now",
+        "variant": "secondary"
+      }
+    }
+  }
+}
