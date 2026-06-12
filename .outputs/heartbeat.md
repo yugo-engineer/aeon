@@ -1,6 +1,6 @@
-HEARTBEAT_OK — nothing needs attention.
+HEARTBEAT_OK
 
 ## Summary
-- **Checked:** cron-state.json (3 skills), open PRs, urgent issues, memory flags, scheduled skill coverage
-- **Result:** All systems healthy. Heartbeat running at 99% success rate, no failures or stuck dispatches, no stalled PRs or flagged items.
-- **Files created:** `memory/logs/2026-06-11.md`
+- Ran all heartbeat checks (P0–P3): no failed skills, no stuck dispatches, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- Logged result to `memory/logs/2026-06-12.md`.
+- No notification needed — nothing requires attention.
