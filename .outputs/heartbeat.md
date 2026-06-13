@@ -1,10 +1,6 @@
+HEARTBEAT_OK
+
 ## Summary
-
-**HEARTBEAT_OK** — All checks passed across all priority tiers:
-
-- **P0:** 3 tracked skills healthy, 0 failures, 0 stuck dispatches, no degradation
-- **P1:** No open PRs, no urgent issues
-- **P2:** No flagged memory items
-- **P3:** Only enabled skill (heartbeat) running within schedule bounds
-
-Logged run 2 to `memory/logs/2026-06-13.md`.
+- Ran all heartbeat checks (P0–P3): no failed skills, no stuck dispatches, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- Appended run 3 log entry to `memory/logs/2026-06-13.md`.
+- No notification needed — all systems healthy.
