@@ -1,3 +1,7 @@
-## Summary
+HEARTBEAT_OK — nothing needs attention.
 
-**HEARTBEAT_OK** — All checks passed across all priority tiers. No failed, stuck, or degraded skills. No stalled PRs or urgent issues. No flagged memory items. Heartbeat is the only enabled skill and is running healthy at 99% success rate. Logged run 3 to `memory/logs/2026-06-20.md`.
+## Summary
+- Ran all heartbeat checks (P0–P3): all passed clean.
+- 3 tracked skills in success state, no failures, no stuck dispatches, no stalled PRs, no flagged memory items.
+- Logged result to `memory/logs/2026-06-21.md`.
+- No notification sent (nothing to report).
