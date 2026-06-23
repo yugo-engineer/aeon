@@ -1,6 +1,6 @@
 HEARTBEAT_OK
 
 ## Summary
-- Executed heartbeat skill: all checks passed across P0–P3 priorities.
-- 3 tracked skills healthy, no stuck/failed dispatches, no stalled PRs, no flagged memory items.
-- Logged results to `memory/logs/2026-06-22.md`.
+- **Ran:** heartbeat skill — all P0–P3 checks passed
+- **Files created:** `memory/logs/2026-06-23.md` with run log
+- **Findings:** No failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills. System healthy.
