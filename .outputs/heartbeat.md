@@ -1,9 +1,3 @@
 ## Summary
 
-**HEARTBEAT_OK** — all checks passed.
-
-- **P0:** All 3 tracked skills healthy. No failures, no stuck dispatches, no degradation.
-- **P1:** No open PRs or urgent issues.
-- **P2:** No flagged memory items.
-- **P3:** Heartbeat (only enabled skill) running on schedule.
-- **Files modified:** `memory/logs/2026-06-27.md` — appended run 2 log entry.
+**HEARTBEAT_OK** — All checks passed. Three tracked skills in healthy state, no stuck dispatches, no stalled PRs, no flagged memory items. Heartbeat is the only enabled scheduled skill and is running on schedule. Logged as run 3 for today.
