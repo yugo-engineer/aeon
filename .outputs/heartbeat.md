@@ -1,6 +1,7 @@
-HEARTBEAT_OK
+HEARTBEAT_OK — all systems healthy, no notifications needed.
 
 ## Summary
-- Ran all heartbeat checks (P0–P3) — nothing needs attention.
-- All 3 tracked skills healthy, no stuck dispatches, no stalled PRs, no flagged memory items, heartbeat schedule on track.
-- Logged result to `memory/logs/2026-06-28.md`.
+- **Ran:** Heartbeat skill (all P0–P3 checks)
+- **Result:** HEARTBEAT_OK — nothing needs attention
+- **Files modified:** `memory/logs/2026-06-28.md` (appended run 2 log entry)
+- **Follow-up:** None required
