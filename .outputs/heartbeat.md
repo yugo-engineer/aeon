@@ -1,8 +1,11 @@
-HEARTBEAT_OK
+HEARTBEAT_OK — no issues found.
 
 ## Summary
-- Ran all heartbeat checks (P0–P3) — nothing needs attention.
-- All 3 tracked skills in success state, no stuck dispatches, no API degradation, no chronic failures.
-- No open PRs, no urgent issues, no flagged memory items.
-- Heartbeat is the only enabled scheduled skill and is running on schedule.
-- Logged results to `memory/logs/2026-06-29.md`.
+
+- **Ran:** Heartbeat skill (all priority checks P0–P3)
+- **Result:** HEARTBEAT_OK — nothing needs attention
+- **P0:** All 3 tracked skills healthy, no failures/stuck/degradation
+- **P1:** No open PRs, no urgent issues
+- **P2:** No flagged memory items
+- **P3:** Only enabled skill (heartbeat) running on schedule
+- **Files modified:** `memory/logs/2026-06-29.md` (appended run 2 log entry)
