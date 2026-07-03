@@ -1,7 +1,10 @@
 HEARTBEAT_OK
 
 ## Summary
-- **Skill:** heartbeat
-- **Result:** All checks passed — no issues found across any priority tier.
-- **Files modified:** `memory/logs/2026-07-03.md` (appended run 2 log entry)
-- **Follow-up actions:** None needed.
+- Executed heartbeat skill — all checks passed across all priority tiers.
+- **P0:** 3 tracked skills (narrative-tracker, fetch-tweets, heartbeat) all healthy. Heartbeat at 99% success rate (217/219), no consecutive failures.
+- **P1:** No open PRs, issues disabled.
+- **P2:** No flagged memory items.
+- **P3:** Heartbeat is the only enabled skill and is running on schedule.
+- Logged run 3 to `memory/logs/2026-07-03.md`.
+- No notification sent (nothing needs attention).
