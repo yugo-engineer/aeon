@@ -1,7 +1,5 @@
 HEARTBEAT_OK
 
 ## Summary
-- **Checked:** cron-state.json (3 skills), open PRs, urgent issues, memory flags, scheduled skill coverage
-- **Result:** All systems nominal — no failed, stuck, or degraded skills; no stalled PRs or flagged items
-- **Files modified:** `memory/logs/2026-07-04.md` (appended heartbeat run 2 log entry)
-- **Follow-up:** None needed
+- Ran all heartbeat checks (P0–P3): no failed skills, no stuck dispatches, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- All systems healthy. Appended run 3 log entry to `memory/logs/2026-07-04.md`.
