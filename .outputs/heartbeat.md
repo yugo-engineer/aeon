@@ -1,5 +1,9 @@
+HEARTBEAT_OK
+
 ## Summary
-- **Skill:** heartbeat (run 4)
-- **Result:** HEARTBEAT_OK — all checks passed, nothing needs attention
-- **Files modified:** `memory/logs/2026-07-11.md` (appended log entry)
-- **Follow-up:** None required
+- **Ran:** Heartbeat skill — all checks passed across P0–P3.
+- **P0:** No failed, stuck, degraded, or chronically failing skills. Heartbeat self-check within bounds.
+- **P1:** No stalled PRs or urgent issues.
+- **P2:** No flagged memory items.
+- **P3:** Only enabled skill (heartbeat) running on schedule.
+- **Created:** `memory/logs/2026-07-12.md` with heartbeat log entry.
