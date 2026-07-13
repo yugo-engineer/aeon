@@ -1,0 +1,50 @@
+{
+  "root": "card_heartbeat",
+  "state": {},
+  "elements": {
+    "card_heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat",
+        "description": "Skill health alert"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "badge_status",
+        "alert_failure",
+        "text_recovery"
+      ]
+    },
+    "badge_status": {
+      "type": "Badge",
+      "props": {
+        "text": "2 consecutive failures",
+        "variant": "destructive"
+      }
+    },
+    "alert_failure": {
+      "type": "Alert",
+      "props": {
+        "title": "Last failure: 2026-07-13T21:38 UTC",
+        "message": "Reason: zero-token crash, likely transient infra issue. Last success ~25h ago, exceeding 2x schedule interval.",
+        "type": "error"
+      }
+    },
+    "text_recovery": {
+      "type": "Text",
+      "props": {
+        "text": "Current run recovering.",
+        "variant": "body"
+      }
+    }
+  }
+}

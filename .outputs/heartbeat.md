@@ -1,7 +1,1 @@
-HEARTBEAT_OK
-
-## Summary
-- **Checks run:** P0 (skill health), P1 (PRs/issues), P2 (memory flags), P3 (schedule coverage)
-- **Result:** All clear — no failed, stuck, or degraded skills; no stalled PRs; no flagged items; heartbeat schedule on track
-- **Files modified:** `memory/logs/2026-07-12.md` (appended run 3 log entry)
-- **No notification sent** — nothing needs attention
+🔴 FAILED: heartbeat (2 consecutive failures, last failed 2026-07-13T21:38 UTC — zero-token crash, likely transient infra issue. Last success ~25h ago, exceeding 2x schedule interval. Current run recovering.)
