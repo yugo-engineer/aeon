@@ -1,3 +1,10 @@
 ## Summary
 
-**HEARTBEAT_OK** — all systems nominal. No failed, stuck, or degraded skills. No stalled PRs or urgent issues. No flagged memory items. Heartbeat is the only enabled scheduled skill and is running on schedule. Logged run 4 to `memory/logs/2026-07-17.md`.
+**HEARTBEAT_OK** — All checks passed across all priority tiers:
+
+- **P0:** No failed, stuck, or degraded skills. Heartbeat running at 98% success rate (258/262 runs).
+- **P1:** No stalled PRs or urgent issues.
+- **P2:** No flagged memory items.
+- **P3:** No missing scheduled skills — heartbeat (the only enabled skill) is running on schedule.
+
+Logged results to `memory/logs/2026-07-18.md`.
