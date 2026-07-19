@@ -1,6 +1,11 @@
+HEARTBEAT_OK
+
 ## Summary
 
-- **Skill:** heartbeat
-- **Result:** HEARTBEAT_OK — all checks passed, nothing needs attention.
-- **Files modified:** `memory/logs/2026-07-18.md` (appended run 4 log entry)
-- **Details:** All 3 tracked skills healthy, no open PRs, no urgent issues, no flagged memory items, heartbeat schedule on track (98% success rate, 265 total runs).
+All heartbeat checks passed — no issues requiring attention:
+- **P0:** No failed, stuck, or degraded skills. Heartbeat self-check OK.
+- **P1:** No stalled PRs or urgent issues.
+- **P2:** No flagged memory items.
+- **P3:** No missing scheduled skills.
+
+Logged result to `memory/logs/2026-07-19.md`.
