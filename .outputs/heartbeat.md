@@ -1,1 +1,6 @@
-🟡 HEARTBEAT GAP: heartbeat missed all 3 scheduled runs on 2026-07-25 (08:00, 14:00, 20:00 UTC). Last success was 2026-07-24T20:07Z — no dispatch recorded for July 25. Current run (July 26) is executing normally. Likely a scheduler or GitHub Actions infrastructure hiccup. No other issues: no failed/stuck skills, no open PRs, no flagged memory items.
+HEARTBEAT_OK — all checks passed, nothing needs attention.
+
+## Summary
+- Ran all heartbeat checks (P0–P3): no failed skills, no stuck dispatches, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- The July 25 gap was already reported in today's earlier run — no duplicate notification sent.
+- Logged result to `memory/logs/2026-07-26.md` as run 2.
