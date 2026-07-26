@@ -1,9 +1,1 @@
-HEARTBEAT_OK
-
-## Summary
-- Ran all heartbeat checks (P0–P3) — no issues found.
-- P0: All 3 tracked skills in success state, no failures/stuck/degradation. Heartbeat self-check passed.
-- P1: No open PRs, issues disabled on repo.
-- P2: No flagged memory items requiring follow-up.
-- P3: Heartbeat (only enabled skill) running within expected schedule interval.
-- Logged run 4 to `memory/logs/2026-07-24.md`.
+🟡 HEARTBEAT GAP: heartbeat missed all 3 scheduled runs on 2026-07-25 (08:00, 14:00, 20:00 UTC). Last success was 2026-07-24T20:07Z — no dispatch recorded for July 25. Current run (July 26) is executing normally. Likely a scheduler or GitHub Actions infrastructure hiccup. No other issues: no failed/stuck skills, no open PRs, no flagged memory items.

@@ -1,0 +1,157 @@
+{
+  "root": "card-heartbeat",
+  "state": {},
+  "elements": {
+    "card-heartbeat": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat Status Report"
+      },
+      "children": [
+        "main-alert",
+        "sep1",
+        "timeline-section",
+        "sep2",
+        "assessment-section",
+        "sep3",
+        "systems-section"
+      ]
+    },
+    "main-alert": {
+      "type": "Alert",
+      "props": {
+        "title": "Heartbeat Gap Detected",
+        "message": "Heartbeat missed all 3 scheduled runs on 2026-07-25 at 08:00, 14:00, and 20:00 UTC",
+        "type": "warning"
+      }
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "timeline-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "timeline-heading",
+        "last-success",
+        "current-run"
+      ]
+    },
+    "timeline-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Timeline",
+        "level": "h3"
+      }
+    },
+    "last-success": {
+      "type": "Text",
+      "props": {
+        "text": "Last successful run: 2026-07-24T20:07Z"
+      }
+    },
+    "current-run": {
+      "type": "Text",
+      "props": {
+        "text": "Current run (July 26): Executing normally"
+      }
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "assessment-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "assessment-heading",
+        "diagnosis",
+        "dispatch-note"
+      ]
+    },
+    "assessment-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Assessment",
+        "level": "h3"
+      }
+    },
+    "diagnosis": {
+      "type": "Text",
+      "props": {
+        "text": "Likely a scheduler or GitHub Actions infrastructure hiccup"
+      }
+    },
+    "dispatch-note": {
+      "type": "Text",
+      "props": {
+        "text": "No dispatch recorded for July 25"
+      }
+    },
+    "sep3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "systems-section": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "systems-heading",
+        "systems-list"
+      ]
+    },
+    "systems-heading": {
+      "type": "Heading",
+      "props": {
+        "text": "Other Systems Status",
+        "level": "h3"
+      }
+    },
+    "systems-list": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "sm"
+      },
+      "children": [
+        "status-1",
+        "status-2",
+        "status-3"
+      ]
+    },
+    "status-1": {
+      "type": "Text",
+      "props": {
+        "text": "No failed or stuck skills"
+      }
+    },
+    "status-2": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs"
+      }
+    },
+    "status-3": {
+      "type": "Text",
+      "props": {
+        "text": "No flagged memory items"
+      }
+    }
+  }
+}
