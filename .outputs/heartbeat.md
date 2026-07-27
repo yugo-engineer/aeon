@@ -1,3 +1,6 @@
-## Summary
+HEARTBEAT_OK
 
-**HEARTBEAT_OK** — all checks passed. No failed, stuck, or degraded skills. No stalled PRs or urgent issues. No flagged memory items. Heartbeat is the only enabled scheduled skill and is running normally at 99% success rate (284/288 runs). Logged as run 2 for today in `memory/logs/2026-07-27.md`.
+## Summary
+- Ran all heartbeat checks (P0–P3) against `cron-state.json`, open PRs, issues, memory, and `aeon.yml`.
+- All systems nominal: no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- Appended run 3 log entry to `memory/logs/2026-07-27.md`.
