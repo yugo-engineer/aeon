@@ -1,6 +1,12 @@
 HEARTBEAT_OK
 
 ## Summary
-- Ran all heartbeat checks (P0–P3) against `cron-state.json`, open PRs, issues, memory, and `aeon.yml`.
-- All systems nominal: no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills.
-- Appended run 3 log entry to `memory/logs/2026-07-27.md`.
+
+All heartbeat checks passed:
+
+- **P0 (Failed/stuck skills):** 3 tracked skills in cron-state.json — all in success state, 0 consecutive failures, no stuck dispatches. Heartbeat self-check OK (last success ~12h ago, within 36h threshold).
+- **P1 (Stalled PRs/issues):** No open PRs. Issues disabled on repo.
+- **P2 (Flagged memory):** Nothing flagged in MEMORY.md.
+- **P3 (Missing scheduled skills):** Heartbeat is the only enabled skill; last success within 2x its 8h interval.
+
+Logged result to `memory/logs/2026-07-28.md`.
