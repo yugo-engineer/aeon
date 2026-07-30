@@ -1,9 +1,6 @@
+HEARTBEAT_OK
+
 ## Summary
-
-**Heartbeat completed: HEARTBEAT_OK** — all systems nominal.
-
-- **P0:** No failed, stuck, or degraded skills. Heartbeat itself healthy at 99% success rate (290/294 runs).
-- **P1:** No open PRs. Issues disabled on repo.
-- **P2:** No flagged memory items.
-- **P3:** Only enabled skill (heartbeat) running on schedule.
-- **Logged** run 2 to `memory/logs/2026-07-29.md`. No notification needed.
+- Ran all heartbeat checks (P0–P3) — no issues found.
+- All 3 tracked skills healthy, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- Logged result to `memory/logs/2026-07-30.md`.
