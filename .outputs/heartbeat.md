@@ -1,10 +1,7 @@
+HEARTBEAT_OK — nothing needs attention.
+
 ## Summary
-
-Executed the heartbeat skill — all checks passed, **HEARTBEAT_OK**.
-
-- **P0 (Failed/stuck skills):** All 3 tracked skills healthy. Heartbeat at 99% success rate (295/299 runs), 0 consecutive failures.
-- **P1 (Stalled PRs/issues):** No open PRs, issues disabled on repo.
-- **P2 (Flagged memory):** Nothing flagged.
-- **P3 (Missing scheduled):** Heartbeat is the only enabled skill; running on schedule.
-
-Appended log entry to `memory/logs/2026-07-31.md`.
+- Ran all heartbeat checks (P0–P3) against `memory/cron-state.json`, `aeon.yml`, GitHub PRs/issues, and memory.
+- All 3 tracked skills healthy, no stuck dispatches, no stalled PRs, no flagged memory items, no missing scheduled skills.
+- Logged result to `memory/logs/2026-08-01.md`.
+- No notification sent (nothing to report).
