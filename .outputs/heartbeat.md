@@ -1,9 +1,7 @@
+HEARTBEAT_OK — nothing needs attention.
+
 ## Summary
-
-**HEARTBEAT_OK** — All checks passed:
-- **P0:** 3 tracked skills all healthy. Heartbeat at 99% success rate (298/302), 0 consecutive failures. No stuck or degraded skills.
-- **P1:** No open PRs, issues disabled on repo.
-- **P2:** No flagged memory items.
-- **P3:** Heartbeat (only enabled skill) running on schedule.
-
-Logged run 3 to `memory/logs/2026-08-01.md`.
+- Ran all heartbeat checks (P0–P3) against `memory/cron-state.json`, open PRs, memory flags, and `aeon.yml` schedules.
+- All 3 tracked skills healthy. No failed, stuck, degraded, or missing skills. No stalled PRs or flagged memory items.
+- Logged results to `memory/logs/2026-08-02.md`.
+- No notification sent (nothing to report).
