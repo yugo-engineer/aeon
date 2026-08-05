@@ -1,3 +1,3 @@
 ## Summary
 
-**HEARTBEAT_OK** — all systems nominal. Three tracked skills healthy (heartbeat at 99% success rate over 310 runs), no open PRs, no flagged memory items, no missing scheduled skills. Logged run 2 to `memory/logs/2026-08-04.md`.
+**Heartbeat completed — HEARTBEAT_OK.** All checks passed across all priority tiers. No failed, stuck, or degraded skills. No stalled PRs or urgent issues. No flagged memory items. Heartbeat is the only enabled scheduled skill and is running healthy at 99% success rate. Logged results to `memory/logs/2026-08-05.md`.
