@@ -1,11 +1,7 @@
-HEARTBEAT_OK — nothing needs attention.
+HEARTBEAT_OK
 
 ## Summary
-
-- **Skill:** heartbeat
-- **Result:** HEARTBEAT_OK
-- **P0 (Failed/stuck):** All 3 tracked skills healthy. Heartbeat at 99% success rate (315/319). No failures, no stuck dispatches, no API degradation.
-- **P1 (PRs/issues):** No open PRs. Issues disabled on repo.
-- **P2 (Memory flags):** Nothing flagged.
-- **P3 (Missing scheduled):** Heartbeat (only enabled skill) running on schedule.
-- **Files modified:** `memory/logs/2026-08-08.md` — appended heartbeat run 2 log entry.
+- **Executed:** heartbeat skill (all P0–P3 checks)
+- **Result:** All clear — no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills
+- **Files modified:** `memory/logs/2026-08-08.md` (appended run 3 log entry)
+- **Follow-up:** None needed
