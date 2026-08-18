@@ -1,12 +1,8 @@
-HEARTBEAT_OK — no issues found.
+HEARTBEAT_OK
 
 ## Summary
 
-Ran the heartbeat skill against all priority checks:
-
-- **P0 (Failed/stuck skills):** All clear. Heartbeat recovered from its earlier failure streak — `consecutive_failures` is back to 0, last success is today.
-- **P1 (Stalled PRs/issues):** No open PRs; issues disabled on repo.
-- **P2 (Flagged memory):** Nothing flagged.
-- **P3 (Missing scheduled skills):** Heartbeat is the only enabled skill and it's on schedule.
-
-Appended HEARTBEAT_OK log to `memory/logs/2026-08-18.md`. No notification sent (nothing to report).
+- **Checks performed:** P0 (failed/stuck/degraded skills), P1 (stalled PRs/urgent issues), P2 (flagged memory), P3 (missing scheduled skills)
+- **Result:** All clear — no issues found across any priority tier
+- **Key observations:** Heartbeat fully recovered from earlier API errors (consecutive_failures=0, last_success 2026-08-18T20:21:26Z). Only heartbeat is enabled; all other skills are disabled. No open PRs, repo issues are disabled.
+- **Files modified:** `memory/logs/2026-08-18.md` — appended HEARTBEAT_OK log entry
