@@ -1,0 +1,87 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "Heartbeat"
+      },
+      "children": [
+        "alert_degraded",
+        "sep1",
+        "details_stack",
+        "sep2",
+        "alert_recovery"
+      ]
+    },
+    "alert_degraded": {
+      "type": "Alert",
+      "props": {
+        "title": "HEARTBEAT DEGRADED",
+        "message": "Heartbeat is the only enabled skill and has been unable to self-report",
+        "type": "error"
+      },
+      "children": []
+    },
+    "sep1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "stat_failures",
+        "badge_error_type",
+        "text_timeline"
+      ]
+    },
+    "stat_failures": {
+      "type": "Stat",
+      "props": {
+        "label": "Consecutive failures",
+        "value": "146"
+      },
+      "children": []
+    },
+    "badge_error_type": {
+      "type": "Badge",
+      "props": {
+        "text": "api_error",
+        "variant": "destructive"
+      },
+      "children": []
+    },
+    "text_timeline": {
+      "type": "Text",
+      "props": {
+        "text": "Failed since Aug 12 · Last success 6 days ago",
+        "variant": "muted"
+      },
+      "children": []
+    },
+    "sep2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      },
+      "children": []
+    },
+    "alert_recovery": {
+      "type": "Alert",
+      "props": {
+        "title": "Recovery",
+        "message": "This run succeeded — monitoring resumed",
+        "type": "success"
+      },
+      "children": []
+    }
+  }
+}
