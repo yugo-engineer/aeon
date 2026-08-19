@@ -1,8 +1,8 @@
-HEARTBEAT_OK — nothing needs attention.
+HEARTBEAT_OK
 
 ## Summary
-- **Skill:** heartbeat
-- **Result:** HEARTBEAT_OK
-- All checks passed: no failed/stuck/degraded skills, no stalled PRs, no urgent issues, no flagged memory items, no missing scheduled skills.
-- **Files modified:** `memory/logs/2026-08-19.md` (appended evening heartbeat log entry)
-- **Follow-up:** None needed.
+
+- **Checks run:** P0 (failed/stuck/degraded skills), P1 (stalled PRs/urgent issues), P2 (flagged memory items), P3 (missing scheduled skills)
+- **Result:** All clear — no issues found across any priority tier
+- **Files modified:** `memory/logs/2026-08-19.md` (appended night heartbeat entry)
+- **Notification:** None needed — nothing to report
