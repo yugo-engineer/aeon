@@ -1,12 +1,8 @@
-HEARTBEAT_OK
+HEARTBEAT_OK — nothing needs attention.
 
 ## Summary
-
-Ran all heartbeat checks — nothing needs attention:
-
-- **P0 (Failed/stuck skills):** All clear. Heartbeat is the only active skill; last_status=success, 0 consecutive failures, last success ~11h ago (within 36h self-check). Success rate 69% (341/491) above the 50% chronic threshold.
-- **P1 (Stalled PRs/urgent issues):** No open PRs. Issues disabled on repo.
-- **P2 (Flagged memory items):** Nothing flagged.
-- **P3 (Missing scheduled skills):** Heartbeat (only enabled skill) last succeeded well within 2x its 8h interval.
-
-Logged `HEARTBEAT_OK` to `memory/logs/2026-08-20.md`.
+- **Skill:** heartbeat
+- **Result:** HEARTBEAT_OK
+- **Checks passed:** P0 (no failed/stuck/degraded skills), P1 (no stalled PRs or urgent issues), P2 (no flagged memory items), P3 (heartbeat on schedule, last success 12h ago within 16h threshold)
+- **Files modified:** `memory/logs/2026-08-20.md` (appended evening heartbeat log entry)
+- **Follow-up:** None needed
