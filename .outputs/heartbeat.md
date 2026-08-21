@@ -1,12 +1,7 @@
 HEARTBEAT_OK
 
 ## Summary
-
-All checks passed — no issues found:
-
-- **P0 (Failed/stuck skills):** All 3 tracked skills show `last_status: success`, zero consecutive failures. Heartbeat self-check passed (last success 12h ago, within 36h window). Success rate 70%, above the 50% chronic failure threshold.
-- **P1 (Stalled PRs/urgent issues):** No open PRs, no urgent issues.
-- **P2 (Flagged memory items):** Nothing flagged.
-- **P3 (Missing scheduled skills):** Heartbeat is the only enabled skill and is running on schedule. `narrative-tracker` and `fetch-tweets` are disabled.
-
-**Files created:** `memory/logs/2026-08-21.md`
+- Ran all heartbeat checks (P0–P3) against `memory/cron-state.json` and `aeon.yml`
+- All systems nominal: no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills
+- Logged result to `memory/logs/2026-08-21.md`
+- No notification needed
