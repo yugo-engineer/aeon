@@ -2,7 +2,11 @@ HEARTBEAT_OK
 
 ## Summary
 
-- **Checked:** P0 (failed/stuck/degraded skills), P1 (stalled PRs/urgent issues), P2 (flagged memory items), P3 (missing scheduled skills)
-- **Result:** All clear — no issues found across any priority tier
-- **Files modified:** `memory/logs/2026-08-20.md` (appended heartbeat night log entry)
-- **No notification sent** (nothing to report)
+All checks passed — no issues found:
+
+- **P0 (Failed/stuck skills):** All 3 tracked skills show `last_status: success`, zero consecutive failures. Heartbeat self-check passed (last success 12h ago, within 36h window). Success rate 70%, above the 50% chronic failure threshold.
+- **P1 (Stalled PRs/urgent issues):** No open PRs, no urgent issues.
+- **P2 (Flagged memory items):** Nothing flagged.
+- **P3 (Missing scheduled skills):** Heartbeat is the only enabled skill and is running on schedule. `narrative-tracker` and `fetch-tweets` are disabled.
+
+**Files created:** `memory/logs/2026-08-21.md`
