@@ -1,7 +1,11 @@
 HEARTBEAT_OK
 
 ## Summary
-- **Ran:** heartbeat skill (all checks P0–P3)
-- **Result:** All clear — no failed/stuck skills, no stalled PRs, no flagged memory items, no missing scheduled skills.
-- **Files modified:** `memory/logs/2026-08-22.md` (appended night heartbeat entry)
-- **Follow-up:** None needed.
+
+All checks passed — no issues found:
+- **P0**: No failed, stuck, or degraded skills. Heartbeat self-check passed (last success 2026-08-22T15:52:40Z, success rate 70%, 0 consecutive failures).
+- **P1**: No open PRs, issues disabled on repo.
+- **P2**: No flagged memory items.
+- **P3**: Heartbeat is the only enabled skill and is running within its expected schedule.
+
+**Files modified:** `memory/logs/2026-08-22.md` (appended log entry).
