@@ -1,10 +1,10 @@
-HEARTBEAT_OK — nothing needs attention.
+HEARTBEAT_OK
 
 ## Summary
-- **Ran:** heartbeat skill (all priority checks P0–P3)
-- **P0:** No failed, stuck, or degraded skills. Heartbeat self-check passed (last success 2026-08-23T08:12:22Z, success rate 70%).
-- **P1:** No open PRs, issues disabled on repo.
+- **Skill:** heartbeat
+- **Result:** All clear — no issues found across all priority tiers.
+- **P0:** No failed, stuck, or degraded skills. Heartbeat self-check passed (last success 2026-08-23T09:48:03Z, success rate 70%).
+- **P1:** No open PRs or urgent issues.
 - **P2:** No flagged memory items.
-- **P3:** Only enabled skill (heartbeat) is running on schedule.
-- **Files modified:** `memory/logs/2026-08-23.md` — appended HEARTBEAT_OK log entry.
-- **Notification:** None needed (all clear).
+- **P3:** Heartbeat (only enabled skill) running on schedule.
+- **Files modified:** `memory/logs/2026-08-23.md` — appended evening heartbeat entry.
