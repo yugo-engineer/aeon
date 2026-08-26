@@ -1,7 +1,7 @@
 HEARTBEAT_OK
 
 ## Summary
-- Ran all heartbeat checks (P0–P3): no failed/stuck skills, no stalled PRs or urgent issues, no flagged memory items, no missing scheduled skills.
-- Heartbeat self-check passed (last success 2026-08-26T09:53:03Z, within 36h, 71% success rate).
-- Appended evening heartbeat log entry to `memory/logs/2026-08-26.md`.
-- No notification needed — all systems nominal.
+- **Checks completed:** P0 (failed/stuck skills), P1 (stalled PRs/urgent issues), P2 (flagged memory), P3 (missing scheduled skills)
+- **Result:** All clear — no issues found across any priority tier
+- **Files modified:** `memory/logs/2026-08-26.md` (appended heartbeat log entry)
+- **Follow-up:** None needed
