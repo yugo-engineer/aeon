@@ -1,0 +1,73 @@
+{
+  "root": "card",
+  "state": {},
+  "elements": {
+    "card": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "alert_section",
+        "details_stack"
+      ]
+    },
+    "alert_section": {
+      "type": "Alert",
+      "props": {
+        "title": "HEARTBEAT GAP",
+        "message": "Scheduler may not be triggering",
+        "type": "warning"
+      }
+    },
+    "details_stack": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "last_run",
+        "schedule",
+        "no_dispatches",
+        "status",
+        "notes"
+      ]
+    },
+    "last_run": {
+      "type": "Stat",
+      "props": {
+        "label": "Last successful run",
+        "value": "2026-08-26T20:11Z (~3 days ago)"
+      }
+    },
+    "schedule": {
+      "type": "Text",
+      "props": {
+        "text": "Scheduled: 3x/day (08/14/20 UTC)",
+        "variant": "body"
+      }
+    },
+    "no_dispatches": {
+      "type": "Text",
+      "props": {
+        "text": "No dispatches since 2026-08-26",
+        "variant": "body"
+      }
+    },
+    "status": {
+      "type": "Text",
+      "props": {
+        "text": "All other skills disabled — no additional failures detected",
+        "variant": "body"
+      }
+    },
+    "notes": {
+      "type": "Text",
+      "props": {
+        "text": "No open PRs or urgent issues",
+        "variant": "body"
+      }
+    }
+  }
+}
