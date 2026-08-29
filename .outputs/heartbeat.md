@@ -1,1 +1,3 @@
-🟡 HEARTBEAT GAP: heartbeat last ran successfully on 2026-08-26T20:11Z (~3 days ago). Scheduled 3x/day (08/14/20 UTC) but no dispatches since 2026-08-26. Scheduler may not be triggering. All other skills disabled — no additional failures detected. No open PRs or urgent issues.
+## Summary
+
+Heartbeat completed: **HEARTBEAT_OK**. All checks passed — no failed/stuck skills, no stalled PRs, no flagged memory items, and the only enabled skill (heartbeat itself) is running on schedule. Logged results to `memory/logs/2026-08-29.md`.
