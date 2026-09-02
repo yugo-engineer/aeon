@@ -1,10 +1,1 @@
-HEARTBEAT_OK
-
-## Summary
-All checks passed — no action needed.
-- **P0**: No failed, stuck, or degraded skills. Heartbeat self-check passes (`last_success` today at 14:08 UTC, within 36h). Success rate 71% above chronic threshold.
-- **P1**: No open PRs. Issues disabled on repo.
-- **P2**: No flagged memory items.
-- **P3**: Heartbeat (only enabled skill) last succeeded today, within 2x schedule interval.
-
-Logged result to `memory/logs/2026-08-31.md`.
+🟡 HEARTBEAT SELF-CHECK: heartbeat last succeeded 37h ago (2026-08-31 20:04 UTC), exceeding the 36h self-check threshold. ~4 scheduled runs appear missed (Sep 1 at 08/14/20 UTC, Sep 2 at 08 UTC). No other skills are enabled, so no broader impact. Investigating scheduler health recommended.

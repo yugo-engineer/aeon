@@ -1,0 +1,106 @@
+{
+  "root": "card_main",
+  "state": {},
+  "elements": {
+    "card_main": {
+      "type": "Card",
+      "props": {
+        "title": "heartbeat"
+      },
+      "children": [
+        "stack_main"
+      ]
+    },
+    "stack_main": {
+      "type": "Stack",
+      "props": {
+        "direction": "vertical",
+        "gap": "md"
+      },
+      "children": [
+        "alert_status",
+        "separator1",
+        "grid_stats",
+        "separator2",
+        "text_missed_runs",
+        "separator3",
+        "text_impact",
+        "text_recommendation"
+      ]
+    },
+    "alert_status": {
+      "type": "Alert",
+      "props": {
+        "type": "warning",
+        "title": "Heartbeat exceeds threshold",
+        "message": "Last succeeded 37h ago (2026-08-31 20:04 UTC), exceeding the 36h self-check threshold."
+      }
+    },
+    "separator1": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "grid_stats": {
+      "type": "Grid",
+      "props": {
+        "columns": 2,
+        "gap": "md"
+      },
+      "children": [
+        "stat_hours",
+        "stat_threshold"
+      ]
+    },
+    "stat_hours": {
+      "type": "Stat",
+      "props": {
+        "label": "Last successful check",
+        "value": "37 hours ago",
+        "delta": "+1h over threshold",
+        "trend": "down"
+      }
+    },
+    "stat_threshold": {
+      "type": "Stat",
+      "props": {
+        "label": "Self-check threshold",
+        "value": "36 hours"
+      }
+    },
+    "separator2": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_missed_runs": {
+      "type": "Text",
+      "props": {
+        "text": "~4 scheduled runs appear missed: Sep 1 at 08/14/20 UTC, Sep 2 at 08 UTC",
+        "variant": "body"
+      }
+    },
+    "separator3": {
+      "type": "Separator",
+      "props": {
+        "orientation": "horizontal"
+      }
+    },
+    "text_impact": {
+      "type": "Text",
+      "props": {
+        "text": "No other skills are enabled, so no broader impact.",
+        "variant": "muted"
+      }
+    },
+    "text_recommendation": {
+      "type": "Text",
+      "props": {
+        "text": "Investigating scheduler health recommended.",
+        "variant": "lead"
+      }
+    }
+  }
+}
