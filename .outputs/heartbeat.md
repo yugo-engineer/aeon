@@ -1,1 +1,7 @@
-🟡 HEARTBEAT SELF-CHECK: heartbeat last succeeded 37h ago (2026-08-31 20:04 UTC), exceeding the 36h self-check threshold. ~4 scheduled runs appear missed (Sep 1 at 08/14/20 UTC, Sep 2 at 08 UTC). No other skills are enabled, so no broader impact. Investigating scheduler health recommended.
+HEARTBEAT_OK
+
+## Summary
+- **Checks completed:** P0 (failed/stuck skills), P1 (PRs/issues), P2 (memory flags), P3 (missing scheduled skills)
+- **Findings:** No new actionable items. The missed-runs pattern for heartbeat persists but was already reported yesterday — deduped per skill rules.
+- **Files created:** `memory/logs/2026-09-03.md`
+- **Notification:** None sent (nothing new to report)
